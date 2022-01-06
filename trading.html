@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="description" content="ПРОДизайн">
+	<meta name="keywords" content="сайт, bootstrap, сетка, лендинг, верстка">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:title" content="pro_design">
+	<meta property="og:description" content="pro_design">
+	<meta property="og:type" content="">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="pro_design">
+
+	<!-- Favicon & Theme Color -->
+	<meta name="theme-color" content="#2500f9">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.svg">
+	<link rel="icon" type="image/png" href="img/favikon.png">
+	<!-- Bootstrap -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Style -->
+	<title>ПРОДизайн</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-2	m-auto">
+					<a href="#" class="header-logo__link">
+						<img src="img/header-logo.png" alt="ПРОДизайн" class="header-logo__img">
+					</a>
+				</div>
+				<div class="d-none d-xl-block col-6 m-auto">
+					<ul class="header-menu">
+						<li class="header-menu__item">
+							<a href="#" class="header-menu__link header-menu__link_active">Главная</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="partners.html" class="header-menu__link">Партнерство</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#" class="header-menu__link">Розыгрыш</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="trading.html" class="header-menu__link">Оптовое направление</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="contacts.html" class="header-menu__link">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="d-none d-xl-block col-4 m-auto">
+					<div class="header-btn">
+						<button class="header-btn__partners" type="button">Стать партнером</button>
+						<button class="header-btn__login" type="button">Войти</button>
+					</div>
+				</div>
+				<div class="d-block d-xl-none col-10 align-items-end">
+					<div class="menu-btn">
+						<span class="menu-btn__span menu-btn__span--1"></span>
+						<span class="menu-btn__span"></span>
+						<span class="menu-btn__span menu-btn__span--2"></span>
+						<span class="menu-btn__span"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="d-xl-none d-block  mobile-menu">
+			<div class="mobile-menu__close"></div>
+			<div class="mobile-menu__inner">
+				<a href="#" class="header-logo__link header-logo--center">
+					<img src="img/header-logo.png" alt="ПРОДизайн" class="header-logo__img">
+				</a>
+				<ul class="header-menu">
+					<li class="header-menu__item">
+						<a href="#" class="header-menu__link header-menu__link_active">Главная</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="partners.html" class="header-menu__link">Партнерство</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="#" class="header-menu__link">Розыгрыш</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="trading.html" class="header-menu__link">Оптовое направление</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="contacts.html" class="header-menu__link">Контакты</a>
+					</li>
+				</ul>
+				<ul class="main-contact">
+					<li class="main-contacts__item main-contacts__number">
+						<a href="tel:+79999999999" class="main-contacts__link">
+							<img src="img/footer-mob-tel-white.svg" alt="#" class="main-contacts__img">
+							+7 (999) 999 - 99 - 99
+						</a>
+					</li>
+					<li class="main-contacts__item main-contacts__number">
+						<a href="https://t.me/prodegisn" class="main-contacts__link">
+							<img src="img/footer-tel-white.svg" alt="#" class="main-contacts__img">
+							@prodegisn
+						</a>
+					</li>
+					<li class="main-contacts__item main-contacts__number">
+						<a href="#" class="main-contacts__link">
+							<img src="img/footer-watsapp-white.svg" alt="#" class="main-contacts__img">
+							+7 (999) 999 - 99 - 99
+						</a>
+					</li>
+				</ul>
+				<div class="header-btn">
+					<button class="header-btn__partners" type="button">Стать партнером</button>
+					<button class="header-btn__login" type="button">Войти</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- <section class="trading-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="main-contact main-trading d-flex">
+            <li class="main-contacts__item main-contacts__number">
+              <a href="tel:+79999999999" class="main-contacts__link">
+                <img src="img/footer-mob-tel.svg" alt="#" class="main-contacts__img">
+                 +7 (999) 999 - 99 - 99
+              </a>
+            </li>
+            <li class="main-contacts__item main-contacts__number">
+              <a href="https://t.me/prodegisn" class="main-contacts__link">
+                <img src="img/footer-tel.svg" alt="#" class="main-contacts__img">
+                @prodegisn
+              </a>
+            </li>
+            <li class="main-contacts__item main-contacts__number">
+              <a href="#" class="main-contacts__link">
+                <img src="img/footer-watsapp.svg" alt="#" class="main-contacts__img">
+                +7 (999) 999 - 99 - 99
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="swiper mySwiper-trading">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide main-slider">
+                <div class="main-slider-info">
+                  <h2 class="main-slider__title trading-slider__title">Наши оптовые направления</h2>
+                  <p class="main-slider__paragraf  main-slider__text main-slider-lottery__text trading-slider__paragraf">
+                    Оптовые поставки популярных и эксклюзивных моделей
+                  </p>
+                  <ul class="trading-list">
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Оптовая торговля по новым правила</p>
+                    </li>
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Лучший дистрибьютер для 37</p>
+                    </li>
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Соблюдение сроков поставки</p>
+                    </li>
+                  </ul>
+                  <div class="main-slider-btn d-flex">
+                    <a href="#" class="main-slider-btn__more-details partners-slider-btn__more-details lottery-slider-btn__more-details">Сотрудничать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide main-slider">
+                <div class="main-slider-info">
+                  <h2 class="main-slider__title trading-slider__title">Наши оптовые направления</h2>
+                  <p class="main-slider__paragraf  main-slider__text main-slider-lottery__text trading-slider__paragraf">
+                    Оптовые поставки популярных и эксклюзивных моделей
+                  </p>
+                  <ul class="trading-list">
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Оптовая торговля по новым правила</p>
+                    </li>
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Лучший дистрибьютер для 37</p>
+                    </li>
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Соблюдение сроков поставки</p>
+                    </li>
+                  </ul>
+                  <div class="main-slider-btn d-flex">
+                    <a href="#" class="main-slider-btn__more-details partners-slider-btn__more-details lottery-slider-btn__more-details">Сотрудничать</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide main-slider">
+                <div class="main-slider-info">
+                  <h2 class="main-slider__title trading-slider__title">Наши оптовые направления</h2>
+                  <p class="main-slider__paragraf  main-slider__text main-slider-lottery__text trading-slider__paragraf">
+                    Оптовые поставки популярных и эксклюзивных моделей
+                  </p>
+                  <ul class="trading-list">
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Оптовая торговля по новым правила</p>
+                    </li>
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Лучший дистрибьютер для 37</p>
+                    </li>
+                    <li class="trading-item">
+                      <p class="trading__paragraf">Соблюдение сроков поставки</p>
+                    </li>
+                  </ul>
+                  <div class="main-slider-btn d-flex">
+                    <a href="#" class="main-slider-btn__more-details partners-slider-btn__more-details lottery-slider-btn__more-details">Сотрудничать</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-6">
+          <div class="swiper mySwiper-trading">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide main-slider">
+                <img src="img/trading-slide.png" alt="slider: img" class="main-slider-img main-slider-lottery__img">
+              </div>
+              <div class="swiper-slide main-slider">
+                <img src="img/trading-slide.png" alt="slider: img" class="main-slider-img main-slider-partners__img">
+              </div>
+              <div class="swiper-slide main-slider">
+                <img src="img/trading-slide.png" alt="slider: img" class="main-slider-img main-slider-partners__img">
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+	<section class="main partners-main">
+		<div class="container">
+			<div class="row">
+				<div class="d-none d-sm-block col-12  main-color-white">
+					<ul class="main-contact d-flex">
+						<li class="main-contacts__item main-contacts__number">
+							<a href="tel:+79999999999" class="main-contacts__link">
+								<img src="img/footer-mob-tel.svg" alt="#" class="main-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+						<li class="main-contacts__item main-contacts__number">
+							<a href="https://t.me/prodegisn" class="main-contacts__link">
+								<img src="img/footer-tel.svg" alt="#" class="main-contacts__img">
+								@prodegisn
+							</a>
+						</li>
+						<li class="main-contacts__item main-contacts__number">
+							<a href="#" class="main-contacts__link">
+								<img src="img/footer-watsapp.svg" alt="#" class="main-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="slider-white-wrapper">
+				<div class="row">
+					<div class="col-12 col-md-7 mySwiper-partners--1 main-color-white">
+						<div class="swiper mySwiper-trading">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide main-slider partners-slider">
+									<span class="main-text partners-main-text trading-main-text">Информация</span>
+									<div class="main-slider-info">
+										<h2 class="main-slider__title">Наши оптовые направления</h2>
+										<p class="main-slider__paragraf">
+											Оптовые поставки популярных и эксклюзивных моделей
+										</p>
+										<div class="main-slider-btn d-flex">
+											<button
+												class="main-slider-btn__more-details partners-slider-btn__more-details open-btn">Стать
+												партнером</button>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide main-slider partners-slider">
+									<span class="main-text partners-main-text trading-main-text">Информация</span>
+									<div class="main-slider-info">
+										<h2 class="main-slider__title">Наши оптовые направления</h2>
+										<p class="main-slider__paragraf">
+											Оптовые поставки популярных и эксклюзивных моделей
+										</p>
+										<div class="main-slider-btn d-flex">
+											<button
+												class="main-slider-btn__more-details partners-slider-btn__more-details open-btn">Стать
+												партнером</button>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide main-slider partners-slider">
+									<span class="main-text partners-main-text trading-main-text">Информация</span>
+									<div class="main-slider-info">
+										<h2 class="main-slider__title">Наши оптовые направления</h2>
+										<p class="main-slider__paragraf">
+											Оптовые поставки популярных и эксклюзивных моделей
+										</p>
+										<div class="main-slider-btn d-flex">
+											<button
+												class="main-slider-btn__more-details partners-slider-btn__more-details open-btn">Стать
+												партнером</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-12 col-md-5 mySwiper-partners--2 main-color-white">
+						<div class="swiper mySwiper-partners">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide main-slider">
+									<img src="img/trading-slide.png" alt="slider: img"
+										class="main-slider-img  main-slider-partners__img">
+								</div>
+								<div class="swiper-slide main-slider">
+									<img src="img/trading-slide.png" alt="slider: img"
+										class="main-slider-img  main-slider-partners__img">
+								</div>
+								<div class="swiper-slide main-slider">
+									<img src="img/trading-slide.png" alt="slider: img"
+										class="main-slider-img  main-slider-partners__img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<section class="about">
+		<div class="container">
+			<h2 class="about-title">О нашем оптовом направлении</h2>
+			<div class="row">
+				<div class="col-md-5 co-xl-6 color-about main-color-bg">
+					<div class="about-text">
+						<p class="about__paragraf">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							laboris nisi ut aliquip ex ea commodo consequat</p>
+						<p class="about__paragraf_gray">
+							- Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+							- Tempor incididunt ut labore et dolore magna aliqua
+						</p>
+						Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat exercitation ullamco laboris
+						<br>
+						<br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do,
+						eiusmod
+					</div>
+				</div>
+				<div class="col-md-7 col-xl-6 main-color-bg">
+					<img src="img/about.png" alt="about" class="about__img">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="brands ">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="brands-title">Наши бренды</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<div class="brands-cards d-none d-sm-flex">
+						<a href="#" class="brands-cards__link">
+							<div class="brands-cards__img">
+								<img src="img/brand1.png" alt="">
+							</div>
+							<hr class="brands-cards__hr">
+							<h3 class="brands-cards__title">Центр паркета</h3>
+							<p class="brands-cards__paragraf">Огромный выбор качественного апольного покрытия</p>
+							<span class="brands-card__item">cp1.ru</span>
+						</a>
+						<a href="#" class="brands-cards__link">
+							<div class="brands-cards__img">
+								<img src="img/brand2.png" alt="">
+							</div>
+							<hr class="brands-cards__hr">
+							<h3 class="brands-cards__title">Слонпаркет</h3>
+							<p class="brands-cards__paragraf">Магазин напольных покрытий СЛОНПАРКЕТ предлагает тысячи решений
+								для отделки пола</p>
+							<span class="brands-card__item">slonparket.ru</span>
+						</a>
+						<a href="#" class="brands-cards__link">
+							<div class="brands-cards__img">
+								<img src="img/brand3.png" alt="">
+							</div>
+							<hr class="brands-cards__hr">
+							<h3 class="brands-cards__title">Центр дверей</h3>
+							<p class="brands-cards__paragraf">Большой выбор дверей как для квартир, так и для частных домов</p>
+							<span class="brands-card__item">cd1.ru</span>
+						</a>
+						<a href="#" class="brands-cards__link">
+							<div class="brands-cards__img">
+								<img src="img/brand4.png" alt="">
+							</div>
+							<hr class="brands-cards__hr">
+							<div class="brands-cards-text">
+								<h3 class="brands-cards__title">Центр паркета</h3>
+								<p class="brands-cards__paragraf">Широкий выбор дверей из экошпона и алюминия</p>
+								<span class="brands-card__item">profildoors.sale</span>
+							</div>
+						</a>
+						<a href="#" class="brands-cards__link">
+							<div class="brands-cards__img">
+								<img src="img/brand5.png" alt="">
+							</div>
+							<hr class="brands-cards__hr">
+							<h3 class="brands-cards__title">Ленплитка</h3>
+							<p class="brands-cards__paragraf">В магазине представлен большой выбор керамической плитки и
+								керамогранита по доступной цене</p>
+							<span class="brands-card__item">slonparket.ru</span>
+						</a>
+						<a href="#" class="brands-cards__link">
+							<div class="brands-cards__img">
+								<img src="img/brand6.png" alt="">
+							</div>
+							<hr class="brands-cards__hr">
+							<h3 class="brands-cards__title">Настоящие двери</h3>
+							<p class="brands-cards__paragraf">Большой ассортимент межкомнатных дверей с разными покрытиями:
+								шпон, эмаль, массив</p>
+							<span class="brands-card__item">slonparket.ru</span>
+						</a>
+					</div>
+				</div>
+				<div class="swiper brands-slider d-block d-sm-none">
+					<div class="swiper-wrapper brans-slider__wrapper">
+						<div class="swiper-slide brans-slider__slide">
+							<a href="#" class="brands-cards__link">
+								<div class="brands-cards__img">
+									<img src="img/brand1.png" alt="">
+								</div>
+								<hr class="brands-cards__hr">
+								<h3 class="brands-cards__title">Центр паркета</h3>
+								<p class="brands-cards__paragraf">Огромный выбор качественного апольного покрытия</p>
+								<span class="brands-card__item">cp1.ru</span>
+							</a>
+						</div>
+						<div class="swiper-slide brans-slider__slide">
+							<a href="#" class="brands-cards__link">
+								<div class="brands-cards__img">
+									<img src="img/brand2.png" alt="">
+								</div>
+								<hr class="brands-cards__hr">
+								<h3 class="brands-cards__title">Слонпаркет</h3>
+								<p class="brands-cards__paragraf">Магазин напольных покрытий СЛОНПАРКЕТ предлагает тысячи
+									решений
+									для отделки пола</p>
+								<span class="brands-card__item">slonparket.ru</span>
+							</a>
+						</div>
+						<div class="swiper-slide brans-slider__slide">
+							<a href="#" class="brands-cards__link">
+								<div class="brands-cards__img">
+									<img src="img/brand3.png" alt="">
+								</div>
+								<hr class="brands-cards__hr">
+								<h3 class="brands-cards__title">Центр дверей</h3>
+								<p class="brands-cards__paragraf">Большой выбор дверей как для квартир, так и для частных домов
+								</p>
+								<span class="brands-card__item">cd1.ru</span>
+							</a>
+						</div>
+						<div class="swiper-slide brans-slider__slide">
+							<a href="#" class="brands-cards__link">
+								<div class="brands-cards__img">
+									<img src="img/brand4.png" alt="">
+								</div>
+								<hr class="brands-cards__hr">
+								<div class="brands-cards-text">
+									<h3 class="brands-cards__title">Центр паркета</h3>
+									<p class="brands-cards__paragraf">Широкий выбор дверей из экошпона и алюминия</p>
+									<span class="brands-card__item">profildoors.sale</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide brans-slider__slide">
+							<a href="#" class="brands-cards__link">
+								<div class="brands-cards__img">
+									<img src="img/brand5.png" alt="">
+								</div>
+								<hr class="brands-cards__hr">
+								<h3 class="brands-cards__title">Ленплитка</h3>
+								<p class="brands-cards__paragraf">В магазине представлен большой выбор керамической плитки и
+									керамогранита по доступной цене</p>
+								<span class="brands-card__item">slonparket.ru</span>
+							</a>
+						</div>
+						<div class="swiper-slide brans-slider__slide">
+							<a href="#" class="brands-cards__link">
+								<div class="brands-cards__img">
+									<img src="img/brand6.png" alt="">
+								</div>
+								<hr class="brands-cards__hr">
+								<h3 class="brands-cards__title">Настоящие двери</h3>
+								<p class="brands-cards__paragraf">Большой ассортимент межкомнатных дверей с разными покрытиями:
+									шпон, эмаль, массив</p>
+								<span class="brands-card__item">slonparket.ru</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!-- <section class="slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="slider__title">Преимущества сотрудничества с нами</h2>
+          <div class="swiper mySwiper2-trading">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/slide1.svg" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">Ассортимент</h3>
+                <p class="swiper-slide__paragraf bag">Широкий ассортимент образцов более 20 тыс.</p>
+              </div>
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/slide2.svg" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">Эксклюзив</h3>
+                <p class="swiper-slide__paragraf">Эксклюзивные торговые марки</p>
+              </div>
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/slide3.svg" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">Карта</h3>
+                <p class="swiper-slide__paragraf">Персональная карта лояльности</p>
+              </div>
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/slide4.svg" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">Мы близко</h3>
+                <p class="swiper-slide__paragraf">Мы во всех строительных ТЦ Санкт-Петербурга</p>
+              </div>
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/slide5.svg" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">Направления</h3>
+                <p class="swiper-slide__paragraf">У нас 3 напрваления Двери / Плитка / Паркет</p>
+              </div>
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/slide6.svg" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">20+ Салонов</h3>
+                <p class="swiper-slide__paragraf">Мы крупнейшая сеть в Санкт-Петербурге</p>
+              </div>
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/slide7.svg" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">Цена</h3>
+                <p class="swiper-slide__paragraf">У нас гарантированно лучшие цены</p>
+              </div>
+              <div class="swiper-slide swiper-slide-card">
+                <img src="img/111.png" class="swiper-slide__img"/>
+                <h3 class="swiper-slide__title">Бонусы</h3>
+                <p class="swiper-slide__paragraf">Бонус при заказе до 20%</p>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next swiper-button-next__trading">
+      <img src="img/nextRow.svg" alt="">
+    </div>
+    <div class="swiper-button-prev swiper-button-prev__trading">
+      <img src="img/nextRow.svg" alt="">
+    </div>
+  </section> -->
+
+
+	<section class="slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="slider__title">Преимущества сотрудничества с нами</h2>
+					<div class="swiper mySwiper2-trading">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/slide1.svg" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">Ассортимент</h3>
+									<p class="swiper-slide__paragraf bag">Широкий ассортимент образцов более 20 тыс.</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/slide2.svg" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">Эксклюзив</h3>
+									<p class="swiper-slide__paragraf">Эксклюзивные торговые марки</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/slide3.svg" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">Карта</h3>
+									<p class="swiper-slide__paragraf">Персональная карта лояльности</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/slide4.svg" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">Мы близко</h3>
+									<p class="swiper-slide__paragraf">Мы во всех строительных ТЦ Санкт-Петербурга</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/slide5.svg" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">Направления</h3>
+									<p class="swiper-slide__paragraf">У нас 3 напрваления Двери / Плитка / Паркет</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/slide6.svg" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">20+ Салонов</h3>
+									<p class="swiper-slide__paragraf">Мы крупнейшая сеть в Санкт-Петербурге</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/slide7.svg" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">Цена</h3>
+									<p class="swiper-slide__paragraf">У нас гарантированно лучшие цены</p>
+								</div>
+
+							</div>
+							<div class="swiper-slide swiper-slide-card m-width25">
+								<div class="swiper-slide-card-item">
+									<img src="img/111.png" class="swiper-slide__img" />
+									<h3 class="swiper-slide__title">Бонусы</h3>
+									<p class="swiper-slide__paragraf">Бонус при заказе до 20%</p>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-button-next swiper-button-next__trading">
+			<img src="img/nextRow.svg" alt="">
+		</div>
+		<div class="swiper-button-prev swiper-button-prev__trading">
+			<img src="img/nextRow.svg" alt="">
+		</div>
+	</section>
+
+
+
+
+
+	<!-- <section class="toPartners">
+    <div class="container">
+      <h2 class="toPartners__title">Сотрудничество с нами</h2>
+      <div class="row">
+        <div class="col-7 m-auto">
+          <div class="toPartners-info">
+            <h3 class="toPartners-info__title">
+              Хотели бы сотрудничать с нами?
+            </h3>
+            <p class="toPartners-info__paragraf">
+              Заполните форму ниже и мы с Вами свяжемся
+            </p>
+            <form action="#">
+              <input type="text" class="toPartners-info-input__name" placeholder="Ваше имя">
+              <input type="tel" class="toPartners-info-input__name" placeholder="+7 (___) ___ - __ - __">
+              <button type="button" class="toPartners-info-input_arrow_btn">
+                  <img src="img/arrow-btn.svg" alt="arrow-btn">
+              </button>
+            </form>
+            
+          </div>
+        </div>
+        <div class="col-5">
+          <img src="img/toPartners.png" alt="toPartners" class="toPartners__btn">
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+	<section class="toPartners main-color-bg">
+		<div class="container">
+			<h2 class="toPartners__title">Сотрудничество с нами</h2>
+			<div class="row">
+				<div class="col-lg-6 col-xl-7 m-auto main-color-white">
+					<div class="toPartners-info">
+						<h3 class="toPartners-info__title">
+							Хотели бы сотрудничать с нами?
+						</h3>
+						<p class="toPartners-info__paragraf">
+							Заполните форму ниже и мы с Вами свяжемся
+						</p>
+						<div class="toPartners-info-input"></div>
+						<input type="text" class="toPartners-info-input__name" placeholder="Ваше имя">
+						<input type="tel" class="toPartners-info-input__name" placeholder="+7 (___) ___ - __ - __">
+						<button type="button" class="toPartners-info-input_arrow_btn d-none d-lg-inline">
+							<img src="img/arrow-btn.svg" alt="arrow-btn">
+						</button>
+						<button
+							class="main-slider-btn__more-details partners-slider-btn__more-details open-btn d-block d-lg-none">Отправить
+							заявку</button>
+					</div>
+				</div>
+				<div class="col-lg-6  col-xl-5 main-color-white">
+					<div class="toPartners-wrapper-color">
+						<img src="img/toPartners.png" alt="toPartners" class="toPartners__btn toPartners__btn-main">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4">
+					<a href="#" class="footer-logo__link">
+						<img src="img/footer-logo.png" alt="ПРОДизайн" class="fooetr-logo__img">
+					</a>
+					<p class="footer-paragraf">
+						Крупнейшая группа компаний в области интерьерных решений, мы являемся лидерами на рынке отделочных
+						материалов
+					</p>
+					<button class="header-btn__partners footer-btn__partners" type="button">Стать партнером</button>
+				</div>
+				<div class="d-none d-lg-block col-lg-3">
+					<ul class="footer-navigation">
+						<li class="footer-navigation__item">
+							<h4 class="footer-navigation__title">
+								Навигация
+							</h4>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="index.html" class="footer-navigation__link">Главная</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="partners.html" class="footer-navigation__link">Партнерство</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Розыгрыш</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Опт-е направление</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-lg-5">
+					<ul class="footer-contacts">
+						<li class="footer-contacts__item">
+							<h4 class="footer-contacts__title">
+								Контакты
+							</h4>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="tel:+79999999999" class="footer-contacts__link">
+								<img src="img/footer-mob-tel.svg" alt="#" class="footer-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="https://t.me/prodegisn" class="footer-contacts__link">
+								<img src="img/footer-tel.svg" alt="#" class="footer-contacts__img">
+								@prodegisn
+							</a>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="#" class="footer-contacts__link">
+								<img src="img/footer-watsapp.svg" alt="#" class="footer-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr class="footer-hr">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-info">
+						<p class="footer-info__paragraf">
+							<span class="footer-info__span">ProDesign 2021 </span>
+							© Все права защищены.
+						</p>
+						<a href="#" class="footer-info__link">Реквизиты компании</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<a href="#" title="Вернуться к началу" class="topbutton" id="toTop">
+		<img src="img/Arrow - Down.svg" alt="">
+	</a>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

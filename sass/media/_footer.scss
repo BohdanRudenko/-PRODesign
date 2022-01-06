@@ -1,0 +1,44 @@
+@media (max-width: 576px) {
+	.footer {
+		background: url(../../img/footer-bg-mobile.jpg) bottom no-repeat;
+		background-size: cover;
+		padding: 40px 0 20px;
+	}
+	.fooetr-logo__img {
+		margin: 0 auto;
+	}
+	.footer-btn__partners {
+		display: none;
+	}
+	.footer-paragraf {
+		max-width: 100%;
+		text-align: center;
+	}
+	.footer-contacts__title {
+		display: none;
+	}
+	.footer-contacts {
+		max-width: 185px;
+		margin: 0 auto 52px;
+	}
+	.footer-hr {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer-info {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.footer-info__paragraf {
+		width: 100%;
+		order: 2;
+		margin-bottom: 0;
+	}
+	.footer-info__link {
+		width: 100%;
+		order: 1;
+		margin-bottom: 20px;
+	}
+}

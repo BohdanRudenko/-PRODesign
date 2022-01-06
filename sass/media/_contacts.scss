@@ -1,0 +1,71 @@
+@media (max-width: 1200px) {
+	.shops {
+		padding: 40px 0;
+	}
+	.shops-info__title {
+		text-align: center;
+	}
+	.shops-info__paragraf {
+		text-align: center;
+	}
+	.shops-info__address {
+		text-align: center;
+	}
+	.contacts-btn__edit {
+		transform: translate(-7%, -113%);
+  	}
+	.toPartners-info-input__name {
+		max-width: 83%;
+	}
+	.input-wrapper {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 992px) {
+	.contacts-slider__img {
+		height: 200px;
+  	}
+}
+
+@media (max-width: 768px) {
+	.toPartners-info-input__name {
+		max-width: 100% !important;
+	}
+	.contacts-wrapper__input {
+		flex-wrap: wrap;
+	}
+	.contacts-hr {
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.shops {
+		padding: 40px 0 0 0;
+	}
+	.shops-info__title {
+		font-size: 20px;
+	}
+	.shops-info__paragraf {
+		font-size: 12px;
+	}
+	.shops-info__address {
+		font-size: 14px;
+	}
+	.salons__title {
+		text-align: center;
+		margin-top: 40px;
+		font-size: 18px;
+	}
+	.partners-slider-btn__more-details {
+		width: 100%;
+	}
+}
+@media (max-width: 466px) {
+	.salon-item-arrow__right {
+		margin-right: 50px;
+	}
+}
+
+					

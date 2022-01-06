@@ -1,0 +1,56 @@
+.header
+    background-color: #1D1D20
+    padding: 30px 0
+    background-image: url("../img/header-circle.png")
+    background-repeat: no-repeat
+    background-position-x: right
+    font-size: 14px
+    line-height: 21px
+
+.header-menu
+    display: flex
+    margin: auto
+    &__item
+        margin-right: 30px
+        &:last-child
+            margin-right: 0
+    
+    &__link
+        color: #7B7B84
+        font-family: "gilroy-regular", sans-serif
+        font-weight: 400
+        &:hover
+            color: #7B7B84
+        &_active
+            color: #fefefe
+            &:hover
+                color: #fefefe
+.header-btn
+    display: flex
+    float: right
+    margin-right: -20px
+    &__partners
+        padding: 12px 30px
+        border: 1px solid #fefefe
+        border-radius: 5px 
+        background-color: transparent
+        color: #fefefe
+        font-family: "gilroy-regular", sans-serif
+        font-weight: 400
+        &:hover
+            background-color: #fefefe
+            color: #1D1D20
+            transition-duration: .5s
+    &__login
+        padding: 12px 30px
+        border: 1px solid #fefefe
+        border-radius: 5px 
+        background-color: transparent
+        color: #fefefe
+        margin-left: 15px
+        font-family: "gilroy-regular", sans-serif
+        font-weight: 400
+        &:hover
+            background-color: #fefefe
+            color: #1D1D20
+            transition-duration: .5s

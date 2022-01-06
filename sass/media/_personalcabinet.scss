@@ -1,0 +1,51 @@
+@media (max-width: 992px) {
+	.personal-cabinet-info4 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.personal-info__wrapper {
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 576px) {
+	.date-span {
+		display: none;
+	}
+	.data-info {
+		margin-bottom: 20px;
+	}
+	.personal-cabinet-info4 {
+		flex-wrap: wrap;
+	}
+	.personal-cabinet-info__kia {
+		width: 100%;
+	}
+	.table {
+		margin-bottom: 5px;
+	}
+	.indent {
+		margin-bottom: 20px;
+	}
+	.price {
+		margin-bottom: 5px;
+	}
+	.header-logo__img--personal {
+		margin: 0 auto 15px;
+	}
+	.header-login-wrapper {
+		float: none;
+		justify-content: center;
+	}
+	.header-login__exit {
+		margin: auto 0;
+	}
+}
+
+@media (min-width: 576px) {
+	.adress {
+		display: none;
+	}
+}

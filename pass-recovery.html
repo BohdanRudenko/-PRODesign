@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="description" content="ПРОДизайн">
+	<meta name="keywords" content="сайт, bootstrap, сетка, лендинг, верстка">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:title" content="pro_design">
+	<meta property="og:description" content="pro_design">
+	<meta property="og:type" content="">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="pro_design">
+
+	<!-- Favicon & Theme Color -->
+	<meta name="theme-color" content="#2500f9">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.svg">
+	<link rel="icon" type="image/png" href="img/favikon.png">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Style -->
+	<title>ПРОДизайн</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-2	m-auto">
+					<a href="#" class="header-logo__link">
+						<img src="img/header-logo.png" alt="ПРОДизайн" class="header-logo__img">
+					</a>
+				</div>
+				<div class="d-none d-xl-block col-6 m-auto">
+					<ul class="header-menu">
+						<li class="header-menu__item">
+							<a href="#" class="header-menu__link header-menu__link_active">Главная</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="partners.html" class="header-menu__link">Партнерство</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#" class="header-menu__link">Розыгрыш</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="trading.html" class="header-menu__link">Оптовое направление</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="contacts.html" class="header-menu__link">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="d-none d-xl-block col-4 m-auto">
+					<div class="header-btn">
+						<button class="header-btn__partners" type="button">Стать партнером</button>
+						<button class="header-btn__login" type="button">Войти</button>
+					</div>
+				</div>
+				<div class="d-block d-xl-none col-10 align-items-end">
+					<div class="menu-btn">
+						<span class="menu-btn__span menu-btn__span--1"></span>
+						<span class="menu-btn__span"></span>
+						<span class="menu-btn__span menu-btn__span--2"></span>
+						<span class="menu-btn__span"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="d-xl-none d-block  mobile-menu">
+			<div class="mobile-menu__close"></div>
+			<div class="mobile-menu__inner">
+				<a href="#" class="header-logo__link header-logo--center">
+					<img src="img/header-logo.png" alt="ПРОДизайн" class="header-logo__img">
+				</a>
+				<ul class="header-menu">
+					<li class="header-menu__item">
+						<a href="#" class="header-menu__link header-menu__link_active">Главная</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="partners.html" class="header-menu__link">Партнерство</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="#" class="header-menu__link">Розыгрыш</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="trading.html" class="header-menu__link">Оптовое направление</a>
+					</li>
+					<li class="header-menu__item">
+						<a href="contacts.html" class="header-menu__link">Контакты</a>
+					</li>
+				</ul>
+				<ul class="main-contact">
+					<li class="main-contacts__item main-contacts__number">
+						<a href="tel:+79999999999" class="main-contacts__link">
+							<img src="img/footer-mob-tel-white.svg" alt="#" class="main-contacts__img">
+							+7 (999) 999 - 99 - 99
+						</a>
+					</li>
+					<li class="main-contacts__item main-contacts__number">
+						<a href="https://t.me/prodegisn" class="main-contacts__link">
+							<img src="img/footer-tel-white.svg" alt="#" class="main-contacts__img">
+							@prodegisn
+						</a>
+					</li>
+					<li class="main-contacts__item main-contacts__number">
+						<a href="#" class="main-contacts__link">
+							<img src="img/footer-watsapp-white.svg" alt="#" class="main-contacts__img">
+							+7 (999) 999 - 99 - 99
+						</a>
+					</li>
+				</ul>
+				<div class="header-btn">
+					<button class="header-btn__partners" type="button">Стать партнером</button>
+					<button class="header-btn__login" type="button">Войти</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="login">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="login-form">
+						<h3 class="login-form__title">Восстановить пароль</h3>
+						<form class="form login-form-main" method="get" id="form-help">
+							<div class="login-form-div">
+								<input required id="password-new" type="password" class="login-form__input recovery-form__input"
+									placeholder="Придумайте новый пароль" name="password-new" /><i
+									class="far toggle-password fa-eye reccovery reccovery--1 password-new"></i>
+							</div>
+							<div class="login-form-div">
+								<input id="password-new-recovery" required type="password"
+									class="login-form__input recovery-form__input" placeholder="Повторите пароль"
+									name="password-new-recovery" /><i
+									class="far toggle-password fa-eye reccovery reccovery--2 password-new-recovery"></i>
+							</div>
+
+							<button type="submit" class="login-form__btn recovery-form__btn">Изменить</button>
+						</form>
+						<a href="#" class="login-form__link recovery-form__link">Войти в аккаунт</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4">
+					<a href="#" class="footer-logo__link">
+						<img src="img/footer-logo.png" alt="ПРОДизайн" class="fooetr-logo__img">
+					</a>
+					<p class="footer-paragraf">
+						Крупнейшая группа компаний в области интерьерных решений, мы являемся лидерами на рынке отделочных
+						материалов
+					</p>
+					<button class="header-btn__partners footer-btn__partners" type="button">Стать партнером</button>
+				</div>
+				<div class="d-none d-lg-block col-lg-3">
+					<ul class="footer-navigation">
+						<li class="footer-navigation__item">
+							<h4 class="footer-navigation__title">
+								Навигация
+							</h4>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="index.html" class="footer-navigation__link">Главная</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="partners.html" class="footer-navigation__link">Партнерство</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Розыгрыш</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Опт-е направление</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-lg-5">
+					<ul class="footer-contacts">
+						<li class="footer-contacts__item">
+							<h4 class="footer-contacts__title">
+								Контакты
+							</h4>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="tel:+79999999999" class="footer-contacts__link">
+								<img src="img/footer-mob-tel.svg" alt="#" class="footer-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="https://t.me/prodegisn" class="footer-contacts__link">
+								<img src="img/footer-tel.svg" alt="#" class="footer-contacts__img">
+								@prodegisn
+							</a>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="#" class="footer-contacts__link">
+								<img src="img/footer-watsapp.svg" alt="#" class="footer-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr class="footer-hr">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-info">
+						<p class="footer-info__paragraf">
+							<span class="footer-info__span">ProDesign 2021 </span>
+							© Все права защищены.
+						</p>
+						<a href="#" class="footer-info__link">Реквизиты компании</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

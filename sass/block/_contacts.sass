@@ -1,0 +1,258 @@
+.contacts-wrapper
+    position: fixed
+    top: 0
+	 left: 0
+	 right: 0
+	 bottom: 0
+    padding-top: 30px
+    background-color: #f1f1f1
+    width: 100%
+    height: 100%
+    z-index: 50
+.flex-wrapper
+    width: 100%
+    display: flex
+    justify-content: center
+
+.slider-wrapper
+    max-width: 600px
+    height: 350px
+    position: relative
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75)
+
+#btn-prev, #btn-next
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 50px
+    background-color: gray
+    opacity: 0.4
+    cursor: pointer
+    transition: opacity .2s ease-in-out
+
+#btn-prev:hover, #btn-next:hover
+    opacity: 0.6
+
+
+#btn-next
+    left: auto
+    right: 0
+
+.slide
+    height: 100%
+    display: none
+.slide img
+    object-fit: cover
+
+.slide.active
+    display: block
+
+.slide img
+    width: 100%
+    height: 100%
+
+.dots-wrapper
+    max-width: 600px
+    height: 60px
+    display: flex
+    justify-content: space-between
+    margin: 15px auto 
+
+
+.dot
+    max-width: 100px
+    width: 100%
+.dot img
+    max-width: 100px
+    width: 100%
+    object-fit: cover
+
+.dot.active
+    background-color: #000000
+
+
+
+
+
+
+
+
+
+.shops
+    padding: 80px 0
+    font-weight: 600
+    color: #1D1D20
+    background-color: #fafafd
+.contacts-shop
+    padding-bottom: 80px
+    background-color: #fafafd
+.shops-info__title
+    margin-bottom: 12px
+    font-size: 30px
+    font-weight: 600
+.shops-info__paragraf
+    color: #7B7B84
+    margin-bottom: 5px
+    font-size: 18px
+.shops-info__adsress
+    font-size: 18px
+
+.salon-item
+    padding: 15px
+    text-align: center
+    position: relative
+    max-width: 370px
+    width: 100%
+    background-color: #FEFEFF
+    box-shadow: 0px 10px 40px rgba(182, 193, 232, 0.15)
+    border-radius: 5px
+.salon-item__img
+    width: 100%
+    border-radius: 5px
+    margin-bottom: 20px
+.salon-item-arrow
+    position: absolute
+    display: flex
+    justify-content: space-between
+    max-width: 340px
+    width: 100%
+    top: 0
+    margin-top: 90px
+.salon-item-arrow__left
+    padding: 12px
+    background-color: #fefefe
+    margin-left: 20px
+    border-radius: 5px
+.salon-item-arrow__right
+    padding: 12px
+    background-color: #fefefe
+    margin-right: 20px
+    border-radius: 5px
+.salon-item__title
+    font-size: 18px
+    font-weight: 600
+    margin-bottom: 5px
+.contacts-item__logo
+    position: absolute
+    width: 90px
+    height: 45px
+    background: #FEFEFF
+    border-radius: 0px 0px 5px 5px
+    top: 0
+    right: 50%
+    transform: translateX(50%)
+
+.contacts-item__logo img
+    max-height: 45px
+    margin: 0 auto
+    max-width: 70px
+.salon-item__link
+    color: #7B7B84
+    font-size: 14px
+    font-weight: 400
+    &:hover
+        color: #7B7B84
+.salon-item__more_down
+    display: flex
+    margin: 15px auto 0
+    margin-top: 15px
+    font-size: 14px
+    color: #1D1D20
+    font-weight: 400
+    background-color: transparent
+.salon-item__more_down:after
+    content: ""
+    display: block
+    background: url('../img/arrow-left.svg') no-repeat 
+    height: 13px
+    width: 10px
+    transform: rotate(270deg)
+    margin-left: 20px
+.salon-item__more_app:after
+    transform: rotate(90deg)
+
+.salon-item-list
+    margin-top: 10px
+.salon-item-list__item
+    margin-bottom: 10px
+    max-width: 370px
+    width: 100%
+    background-color: rgba(182, 193, 232, 0.15)
+    border-radius: 5px
+.salon-item-list__link
+    display: flex
+    align-items: center
+    color: #7B7B84
+    background-color: #FEFEFF
+    box-shadow: 0px 10px 40px rgba(182, 193, 232, 0.15)
+    border-radius: 5px
+    &:hover
+        color: #7B7B84
+.salon-item-list__icon
+    padding: 13px
+    background-color: #1D1D20
+    border-radius: 5px
+    margin-right: 20px
+.salon-item-list__info
+    font-size: 12px
+    font-weight: 400
+    margin-bottom: 0
+.salon-item-list__arrow
+    margin-right: 15px
+    margin-left: auto
+.salons__title
+    margin-top: 80px
+    margin-bottom: 30px
+.contacts-map
+    padding: 80px 0
+.toPartners-info-input__name_edit
+    max-width: 570px !important
+    width: 100%
+    background: #FAFAFD
+    resize: none
+.contacts-info-input__name
+    background-color: #FAFAFD
+    max-width: 284px !important
+    &_one
+        border-radius: 5px 0 0 5px
+    &_two
+        border-radius: 0 5px 5px 0
+//     max-width: 570px !important
+//     width: 100%
+//     background: #FAFAFD
+.contacts-wrapper__input
+    display: flex
+    position: relative
+    margin-bottom: 10px
+.contacts-wrapper__textarea
+    position: relative
+    max-width: 570px
+    width: 100%
+
+.contacts-hr
+    height: 20px
+    width: 1px
+    background: #B4B4BF
+    opacity: 0.5
+    border-radius: 10px
+    margin: auto 0
+    position: absolute
+    left: 45%
+    transform: translateY(-50%)
+    text-align: 50%
+    top: 50%
+.contacts-btn__edit
+    position: absolute
+    right: 0
+    bottom: 0
+.toPartners__title
+    margin-bottom: 60px
+    margin-top: 5px
+
+.contacts-toPartners
+    background-color: #FAFAFD
+.contacts-toPartners-wrapper
+    background: #FEFEFF
+    box-shadow: 0px 10px 40px rgba(182, 193, 232, 0.15)
+    border-radius: 5px

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="description" content="ПРОДизайн">
+	<meta name="keywords" content="сайт, bootstrap, сетка, лендинг, верстка">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:title" content="pro_design">
+	<meta property="og:description" content="pro_design">
+	<meta property="og:type" content="">
+	<meta property="og:image" content="">
+	<meta property="og:site_name" content="pro_design">
+
+	<!-- Favicon & Theme Color -->
+	<meta name="theme-color" content="#2500f9">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.svg">
+	<link rel="icon" type="image/png" href="img/favikon.png">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/personalcabinet.css">
+	<!-- Style -->
+	<title>ПРОДизайн</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-2	m-auto">
+					<a href="#" class="header-logo__link">
+						<img src="img/header-logo.png" alt="ПРОДизайн" class="header-logo__img header-logo__img--personal">
+					</a>
+				</div>
+				<div class="col-12 col-sm-10">
+					<div class="header-login-wrapper d-flex">
+						<div class="header-login">
+							<p class="header-login__fio">
+								Иванов Иван
+							</p>
+							<span class="header-login__sms">СМС - <button>Отключить</button></span>
+						</div>
+						<a href="#" class="header-login__exit">Выйти</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="personal-cabinet">
+		<div class="container">
+			<div class="row">
+				<div class=" col-md-12 col-lg-6">
+					<div class="row personal-cabinet-info">
+						<div class="col-12 personal-cabinet-edit">
+							<div class="cabinet-edit">
+								<label class="personal-cabinet-info__name" for="user_name">Привет, Иван</label>
+								<p class="personal-cabinet-info__card">Карта - 123 456 789</p>
+							</div>
+							<a href="personalcabinet_edit.html" class="personal-cabinet-edit-btn">
+								<img src="img/personal-cabinet-edit.svg" alt="edit" class="personal-cabinet-edit-btn__img">
+							</a>
+						</div>
+						<div class="col-12 col-sm-6">
+							<label class="personal-cabinet-info__tel" for="user_tel">+7 (999) 999 - 99 - 99</label>
+							<p class="personal-cabinet-info__tel-paragraf">Телефон</p>
+							<label class="personal-cabinet-info__company" for="user_company">PROДизайн</label>
+							<p class="personal-cabinet-info__company-paragraf">Компани</p>
+							<label class="personal-cabinet-info__e-mail" for="user_e-mail">ivanov1209@gmail.com</label>
+							<p class="personal-cabinet-info__e-mail-paragraf">Почта</p>
+						</div>
+						<div class="col-12 col-sm-6 pl-0 pl-sm-25">
+							<p class="personal-cabinet-info__birthday-paragraf paragraf-edit">Дата рождения</p>
+							<input class="personal-cabinet-info__birthday placeholder-edit" for="user_birthday" type="date"
+								placeholder="27 июля, 1996"></input>
+							<p class="personal-cabinet-info__city-paragraf paragraf-edit">Город</p>
+							<input class="personal-cabinet-info__city placeholder-edit date-icon" for="user_city" type="text"
+								placeholder="Москва"></input>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6">
+					<div class="row personal-cabinet-info2">
+						<div class="col-12 col-sm-4">
+							<div class="data d-flex">
+								<div class="data-info">
+									<div class="data-info-item d-flex">
+										<p>0</p>
+										<img src="" alt="">
+									</div>
+									<label>Кол-во клиентов</label>
+								</div>
+								<span class="date-span"></span>
+							</div>
+						</div>
+						<div class="col-12 col-sm-4">
+							<div class="data d-flex">
+								<div class="data-info">
+									<div class="data-info-item d-flex">
+										<p>0 ₽</p>
+										<img src="" alt="">
+									</div>
+									<label>Ожидает выплаты</label>
+								</div>
+								<span class="date-span"></span>
+							</div>
+						</div>
+						<div class="col-12 col-sm-4">
+							<div class="data d-flex">
+								<div class="data-info">
+									<div class="data-info-item d-flex">
+										<p>0 ₽</p>
+										<img src="" alt="">
+									</div>
+									<label>Заработали</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 personal-cabinet-info3">
+							<div class="personal-cabinet-bonus d-flex justify-content-between">
+								<p class="personal-cabinet-info__bonus">Бонусы</p>
+								<p class="personal-cabinet-info__bonus-num">0 <span>бонуса(ов)</span></p>
+							</div>
+							<p class="personal-cabinet-info__bonus-level">1 уровень</p>
+							<progress value="0" max="100" class="personal-cabinet-info__bonus-checkbox"></progress>
+							<p class="personal-cabinet-info__bonus-text">Повышая объемы продаж, Вы увеличиваете свой уровень,
+								за
+								который получаете бонусы</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 col-lg-6 personal-cabinet-info4 d-flex">
+					<div class="personal-cabinet-info__kia">
+						<h3 class="personal-cabinet-info__draw">Розыгрыш Kia Soul</h3>
+						<p class="personal-cabinet-info__bitels">0 <span>Билета(ов)</span> </p>
+						<p class="personal-cabinet-info__text">С каждого чека в 500т.р Вы получаете 1 билет</p>
+					</div>
+					<img src="img/lottery-img.png" class="personal-cabinet-info__img">
+				</div>
+				<div class=" col-md-12 col-lg-6 personal-cabinet-info5">
+					<div class="slider-cabinet d-flex justify-content-between align-items-center">
+						<h3 class="personal-cabinet-info__prizes-win">Выигранные призы</h3>
+						<div class="swiper-btn-cabinet d-flex">
+							<div class="swiper-button-prev4">
+								<img src="img/nextRow.svg" alt="">
+							</div>
+							<div class="swiper-button-next4">
+								<img src="img/nextRow.svg" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper cabinet">
+						<div class="gradient"></div>
+						<div class="swiper-wrapper">
+							<p class="personal-cabinet-info__bonus-text m-auto">
+								Вы пока ничего не выиграли
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="personal-date">
+		<div class="container">
+			<div class="row personal-cabinet__indent">
+				<div class="col-12 col-md-3">
+					<p class="personal-cabinet-info__fio">ФИО</p>
+				</div>
+				<div class="col-12 col-md-2">
+					<p class="personal-cabinet-info__order-date">Номер и дата заказа</p>
+				</div>
+				<div class="col-12 col-md-2">
+					<p class="personal-cabinet-info__order-price">Сумма заказа</p>
+				</div>
+				<div class="col-12 col-md-2">
+					<p class="personal-cabinet-info__shipping-date">Дата отгрузки</p>
+				</div>
+				<div class="col-12 col-md-3">
+					<p class="personal-cabinet-info__status">Статус</p>
+				</div>
+			</div>
+			<div class="row personal-cabinet__information personal-info__wrapper">
+				<div class="col-12">
+					<p class="personal-cabinet-info__no-orders">На данный момент у Вас нет заказов</p>
+				</div>
+			</div>
+
+	</section>
+
+
+
+
+
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4">
+					<a href="#" class="footer-logo__link">
+						<img src="img/footer-logo.png" alt="ПРОДизайн" class="fooetr-logo__img">
+					</a>
+					<p class="footer-paragraf">
+						Крупнейшая группа компаний в области интерьерных решений, мы являемся лидерами на рынке отделочных
+						материалов
+					</p>
+					<button class="header-btn__partners footer-btn__partners" type="button">Стать партнером</button>
+				</div>
+				<div class="d-none d-lg-block col-lg-3">
+					<ul class="footer-navigation">
+						<li class="footer-navigation__item">
+							<h4 class="footer-navigation__title">
+								Навигация
+							</h4>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="index.html" class="footer-navigation__link">Главная</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="partners.html" class="footer-navigation__link">Партнерство</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Розыгрыш</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Опт-е направление</a>
+						</li>
+						<li class="footer-navigation__item">
+							<a href="#" class="footer-navigation__link">Контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-lg-5">
+					<ul class="footer-contacts">
+						<li class="footer-contacts__item">
+							<h4 class="footer-contacts__title">
+								Контакты
+							</h4>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="tel:+79999999999" class="footer-contacts__link">
+								<img src="img/footer-mob-tel.svg" alt="#" class="footer-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="https://t.me/prodegisn" class="footer-contacts__link">
+								<img src="img/footer-tel.svg" alt="#" class="footer-contacts__img">
+								@prodegisn
+							</a>
+						</li>
+						<li class="footer-contacts__item footer-contacts__number">
+							<a href="#" class="footer-contacts__link">
+								<img src="img/footer-watsapp.svg" alt="#" class="footer-contacts__img">
+								+7 (999) 999 - 99 - 99
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr class="footer-hr">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-info">
+						<p class="footer-info__paragraf">
+							<span class="footer-info__span">ProDesign 2021 </span>
+							© Все права защищены.
+						</p>
+						<a href="#" class="footer-info__link">Реквизиты компании</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<a href="#" title="Вернуться к началу" class="topbutton" id="toTop">
+		<img src="img/Arrow - Down.svg" alt="">
+	</a>
+
+
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
